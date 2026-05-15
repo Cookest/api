@@ -16,6 +16,7 @@ pub mod store;
 pub mod push_token;
 pub mod email;
 pub mod scan;
+pub mod recipe_gen;
 
 pub use auth::AuthService;
 pub use token::TokenService;
@@ -34,3 +35,4 @@ pub use store::StoreService;
 pub use push_token::PushTokenService;
 pub use email::EmailService;
 pub use scan::ScanService;
+pub use recipe_gen::RecipeGenService;
